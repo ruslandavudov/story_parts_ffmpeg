@@ -196,26 +196,6 @@ class StoryConverterRepository {
     await getMediaInformationAsync(configuration);
   }
 
-  // Future<String> getBlackdetect() async {
-  //   final ffprobe_cmd = "ffprobe -f lavfi -i \"movie={inpath},blackdetect[out0]\" -show_entries tags=lavfi.black_start,lavfi.black_end -of default=nw=1 -v quiet";
-  //   print('ffprobe_cmd: $ffprobe_cmd');
-  //   final lines = subprocess.check_output(shlex.split(ffprobe_cmd)).decode('utf-8').split('\n')
-  //
-  //   for (final x in delete_back2back(lines)) {
-  //
-  //   }
-  //   var times = [float(x.split('=')[1].strip()) for x in delete_back2back(lines) if x]
-  //
-  //
-  //   if (!invert) {
-  //
-  //   }
-  //   times = [0] + times[:-1]
-  //   final timepairs = [(times[i], times[i + 1]) for i in range(0, len(times) // 2, 2)]
-  //
-  //   await FFprobeKit.executeAsync(command);
-  // }
-
   /// Получение медиа информации по медиа-файлу
   Future<void> getMediaInformationAsync(
     StoryConverterConfiguration configuration,
