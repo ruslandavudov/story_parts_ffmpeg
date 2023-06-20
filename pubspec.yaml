@@ -1,0 +1,38 @@
+name: story_parts_ffmpeg
+description: story_parts_ffmpeg
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  bloc: 8.1.1
+  bloc_concurrency: 0.2.0
+  collection: 1.16.0
+  cupertino_icons: ^1.0.2
+  equatable: 2.0.5
+  ffmpeg_kit_flutter: 5.1.0-LTS
+  flutter:
+    sdk: flutter
+  flutter_bloc: 8.1.1
+  json_annotation: 4.6.0
+  path: 1.8.2
+  path_provider: 2.0.14
+  provider: 6.0.4
+  rxdart: 0.27.7
+  video_player: 2.5.2
+
+dev_dependencies:
+  build_runner: 2.2.0
+  flutter_gen_runner: 4.3.0
+  flutter_test:
+    sdk: flutter
+  json_serializable: 6.3.1
+  lint: 2.0.1
+
+flutter:
+  uses-material-design: true

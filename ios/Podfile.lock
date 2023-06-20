@@ -1,0 +1,45 @@
+PODS:
+  - ffmpeg-kit-ios-https (5.1.LTS)
+  - ffmpeg_kit_flutter (5.1.0.LTS):
+    - ffmpeg_kit_flutter/https-lts (= 5.1.0.LTS)
+    - Flutter
+  - ffmpeg_kit_flutter/https-lts (5.1.0.LTS):
+    - ffmpeg-kit-ios-https (= 5.1.LTS)
+    - Flutter
+  - Flutter (1.0.0)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - ffmpeg_kit_flutter (from `.symlinks/plugins/ffmpeg_kit_flutter/ios`)
+  - Flutter (from `Flutter`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/ios`)
+
+SPEC REPOS:
+  trunk:
+    - ffmpeg-kit-ios-https
+
+EXTERNAL SOURCES:
+  ffmpeg_kit_flutter:
+    :path: ".symlinks/plugins/ffmpeg_kit_flutter/ios"
+  Flutter:
+    :path: Flutter
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/ios"
+
+SPEC CHECKSUMS:
+  ffmpeg-kit-ios-https: 9e50ffa7eaa6272a0021829e054ef241f2ecffb2
+  ffmpeg_kit_flutter: fb5bee3a6038231463ee99e30f97a5763e0ae40f
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  path_provider_foundation: eaf5b3e458fc0e5fbb9940fb09980e853fe058b8
+  video_player_avfoundation: 81e49bb3d9fb63dccf9fa0f6d877dc3ddbeac126
+
+PODFILE CHECKSUM: 43adfca91c0a82e6b8bd77b624d429ae3f7e1976
+
+COCOAPODS: 1.12.1

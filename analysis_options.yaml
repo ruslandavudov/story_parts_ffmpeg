@@ -1,0 +1,18 @@
+include: package:lint/analysis_options.yaml
+analyzer:
+  exclude: [lib/**.g.dart]
+  strong-mode:
+    implicit-casts: false
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+  errors:
+    cancel_subscriptions: error
+    close_sinks: error
+    unnecessary_statements: warning
+
+linter:
+  rules:
+    unawaited_futures: true
+    use_to_and_as_if_applicable: true
