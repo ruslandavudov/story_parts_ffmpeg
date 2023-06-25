@@ -15,7 +15,7 @@ dependencies:
   collection: 1.16.0
   cupertino_icons: ^1.0.2
   equatable: 2.0.5
-  ffmpeg_kit_flutter: 5.1.0-LTS
+  ffmpeg_kit_flutter: 5.1.0
   flutter:
     sdk: flutter
   flutter_bloc: 8.1.1
