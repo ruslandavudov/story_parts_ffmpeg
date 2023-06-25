@@ -84,6 +84,9 @@ class StoryConverterRepository {
             ' -filter_complex '
             ' "[1:v]setpts=PTS-STARTPTS,scale=$width:-1,setsar=1:1[media1], '
             ' [0:v][media1]overlay=x=0:y=$positionY:shortest=1"'
+            ' -b:v 8500k '
+            ' -level 41 '
+            ' -coder cabac '
             ' -fps_mode auto  -y "$outPath" ';
         await _executeAsync(
           source: data.configuration.source,
